@@ -17,7 +17,7 @@ Asegúrate de tener instalado lo siguiente en tu sistema:
    Abre tu terminal y ejecuta:
 
    ```bash
-   git clone https://github.com/tuusuario/html_to_pdf.git
+   git clone https://github.com/gapalmas/html_to_pdf.git
    cd html_to_pdf
    ```
 
