@@ -2,6 +2,17 @@
 
 Este proyecto es una API en FastAPI que recibe contenido HTML y lo convierte a PDF en formato base64.
 
+## 🐳 Usar con Docker
+
+También puedes ejecutar esta API directamente usando la imagen de Docker disponible en Docker Hub.
+
+### 🔽 Descargar y ejecutar
+
+```bash
+docker pull gapalmasss/html_to_pdf:latest
+docker run -d -p 8000:8000 gapalmasss/html_to_pdf:latest
+```
+
 ## 🛠 Requisitos
 
 Asegúrate de tener instalado lo siguiente en tu sistema:
