@@ -102,12 +102,38 @@ Este repositorio incluye un análisis automatizado de seguridad utilizando **Git
 3. Haz clic sobre una ejecución específica para ver los pasos detallados y los resultados del análisis.
 
 
+## 🛡️ Escaneo de Vulnerabilidades con Trivy
+
+Este repositorio utiliza [**Trivy**](https://trivy.dev/) para escanear automáticamente la imagen Docker en busca de vulnerabilidades de seguridad en cada `push` o `pull request` a la rama `main`.
+
+### 🔍 ¿Cómo ver los resultados?
+
+1. Ve a la pestaña **Security** en la página principal del repositorio.
+2. Haz clic en **Code scanning alerts**.
+3. Revisa las alertas generadas por Trivy, que se integran con GitHub Code Scanning.
+
+> 💡 Si no ves la pestaña `Security`, haz clic en los tres puntos `...` en el menú superior para desplegar más opciones.
+
+### 🧪 Ver historial de ejecuciones
+
+1. Abre la pestaña **Actions** del repositorio.
+2. Busca el flujo llamado **Trivy Docker Image Scan**.
+3. Haz clic en una ejecución específica para ver los pasos detallados y los resultados del análisis.
+
+### 🧰 ¿Qué analiza Trivy?
+
+Trivy escanea la imagen Docker en busca de:
+
+- Vulnerabilidades en paquetes del sistema operativo.
+- Problemas en dependencias de aplicaciones.
+- Configuraciones inseguras.
+
+Para más información sobre Trivy y sus capacidades, visita la [documentación oficial](https://trivy.dev/).
 
 
 ## 🛠 Contribuciones
 
 Si deseas contribuir a este proyecto, siéntete libre de abrir un *issue* o enviar un *pull request*.
-
 
 ## 📝 Licencia
 
