@@ -15,7 +15,7 @@ docker run -d -p 8000:8000 gapalmasss/html_to_pdf:latest
 
 ## 🛠 Requisitos
 
-Asegúrate de tener instalado lo siguiente en tu sistema:
+Se debe tener instalado lo siguiente en tu sistema:
 
 - Python 3.7 o superior
 - Pip (gestor de paquetes de Python)
