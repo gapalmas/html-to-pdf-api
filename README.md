@@ -1,6 +1,6 @@
 # Proyecto HTML a PDF
 
-Este proyecto es una API en FastAPI que recibe contenido HTML y lo convierte a PDF en formato base64.
+Este proyecto es una API con FastAPI que recibe el contenido HTML y lo convierte a un PDF en formato base64.
 
 ## 🐳 Usar con Docker
 
