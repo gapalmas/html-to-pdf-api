@@ -82,6 +82,37 @@ Se debe tener instalado lo siguiente en tu sistema:
      "html": "<h1>Hola mundo!</h1><p>Esto se va al PDF</p>"
    }
    ```
+
+# 🔍 Análisis de Calidad con SonarQube
+
+Este proyecto utiliza **SonarQube** para análisis estático de código, detectando:
+
+- 🐛 **Bugs**
+- 🛡️ **Vulnerabilidades de seguridad**
+- 👃 **Code smells**
+- ✅ **Cobertura de tests**
+
+## 📊 Métricas clave
+
+- **Calificación de fiabilidad**: A (máxima)  
+- **Calificación de seguridad**: A (máxima)  
+- **Cobertura de código**: 85% (objetivo: 80%)
+
+## 📌 Cómo ver los resultados
+
+Accede al dashboard en SonarCloud:  
+
+[![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=gapalmas_html-to-pdf-api)](https://sonarcloud.io/summary/new_code?id=gapalmas_html-to-pdf-api)
+
+Explora las secciones:
+
+- **Issues**: Problemas detectados clasificados por severidad  
+- **Code**: Vista del código con problemas marcados  
+- **Measures**: Métricas detalladas
+
+💡 *Los análisis se ejecutan automáticamente en cada push a `main` mediante GitHub Actions.*
+
+
 ## 🧪 Análisis de Seguridad con CodeQL
 
 Este repositorio incluye un análisis automatizado de seguridad utilizando **GitHub CodeQL**, que ayuda a detectar vulnerabilidades comunes en el código.
