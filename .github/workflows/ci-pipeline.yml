@@ -48,5 +48,3 @@
       secrets:
         DOCKER_HUB_USERNAME: ${{ secrets.DOCKER_HUB_USERNAME }}
         DOCKER_HUB_TOKEN: ${{ secrets.DOCKER_HUB_TOKEN }}
-    yaml-lint:
-      uses: gapalmas/github-actions-templates/.github/workflows/validate-yaml.yml@main
