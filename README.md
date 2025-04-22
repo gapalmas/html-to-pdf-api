@@ -4,7 +4,7 @@ Este proyecto es una API con FastAPI que recibe el contenido HTML y lo convierte
 
 ## 🐳 Usar con Docker
 
-También puedes ejecutar esta API directamente usando la imagen de Docker disponible en Docker Hub.
+También puedes ejecutar el API desde la imagen de Docker disponible en Docker Hub.
 
 ### 🔽 Descargar y ejecutar
 
